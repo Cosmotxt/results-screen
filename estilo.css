@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    background: url('./cool-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #181818;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    width: calc(50% + 59.5px);
+    height: 100%;
+}
+
+.header-container h1 {
+    text-align: center;
+}
+
+.header-container ul {
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+}
